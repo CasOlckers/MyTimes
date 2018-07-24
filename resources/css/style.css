@@ -1,0 +1,24 @@
+.headerh1 {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+.headerimage {
+  display: flex;
+  color: MediumAquamarine;
+}
+
+.header_nav{
+  display: flex;
+}
+
+.headercontainer {
+  border-width: 500px;
+  border-bottom: 1px solid black;
+  display: flex;
+
+
+}
