@@ -19,6 +19,22 @@
   border-width: 500px;
   border-bottom: 1px solid black;
   display: flex;
+}
+ .header_nav{
+display: flex;
+width: 200px;
+height: 40px;
 
+}
+
+.header_nav p {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  border-width: thin;
+  height: auto;
+  width: auto;
 
 }
