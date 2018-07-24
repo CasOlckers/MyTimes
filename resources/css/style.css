@@ -19,11 +19,14 @@
   border-width: 500px;
   border-bottom: 1px solid black;
   display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
 }
  .header_nav{
-display: flex;
-width: 200px;
-height: 40px;
+   display: flex;
+   width: 200px;
+   height: 40px;
+   align-items: stretch;
 
 }
 
@@ -32,9 +35,4 @@ height: 40px;
   font-size: 14px;
   font-weight: bold;
   color: black;
-  border: 1px solid black;
-  border-width: thin;
-  height: auto;
-  width: auto;
-
 }
