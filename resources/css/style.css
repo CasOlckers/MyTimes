@@ -61,25 +61,47 @@ body {
   border: 2px solid green;
   padding: 25px;
   margin: 2px;
-  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+
 
 }
 .Mother_Buys_Tuna {
-  display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: black;
+  position: relative;
   text-align: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
 }
 
-.Mother_Buys_Tuna p {
+#tunaP {
   font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+
+
+
+
 }
 
+.Mother_Buys_Tuna #tunaP {
+  width: 200px;
+  margin: 0 auto;
+  top: 20px;
+  height: 20px;
+  position: relative;
+}
 
+#tunapic {
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+}
 
 .column.medium {
   display: flex;
@@ -87,6 +109,8 @@ body {
   border: 2px solid green;
   padding: 30px;
   margin: 25px;
+  flex-direction: column;
+  flex-wrap: wrap;
 
 }
 
@@ -96,6 +120,8 @@ body {
   border: 2px solid green;
   padding: 30px;
   margin: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .main_content_container {
   width: 100%;
