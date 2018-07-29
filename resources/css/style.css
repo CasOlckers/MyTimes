@@ -1,137 +1,86 @@
-.headerh1 {
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+
+header {
   display: flex;
   align-items: center;
-}
-h1 {
-  font-family: Verdana;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: "Verdana", sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
-  padding: 20px;
-  padding-left: 20px;
-}
-
-.headerimage {
-  display: flex;
-  color: MediumAquamarine;
-}
-
-.header_nav{
-  display: flex;
 }
 
 .headercontainer {
-  width: 100%;
-  border-bottom: 1px solid black;
   display: flex;
-  justify-content: flex-start;
-  height: 100px;
-  flex-direction: row;
   align-items: center;
-
-}
- .header_nav{
-   display: flex;
-   width: 200px;
-   height: 100px;
-   align-items: flex-end;
-   justify-content: space-around;
-   padding-left: 900px;
-
-
+  flex-grow: 1;
+  padding-left: 30px;
 }
 
-.header_nav p {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: black;
-  width: 20px;
-  height: 20px;
-  padding: 20px;
+.headercontainer img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
-body {
-  margin: 0;
+.headercontainer span {
+  color: mediumaquamarine;
 }
+
+.header_nav {
+  padding-right: 40px;
+}
+
+
+.header_nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Container */
+
+.main_content_container {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+/* Big column */
 
 .column.big {
-  display: flex;
   width: 630px;
-  border: 2px solid green;
-  padding: 25px;
-  margin: 2px;
-  flex-direction: column;
-  align-items: flex-start;
-
-
 }
+
 .Mother_Buys_Tuna {
-  position: relative;
-  text-align: center;
-  flex-wrap: wrap;
-  align-content: flex-start;
-
-}
-
-#tunaP {
-  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
   font-size: 30px;
   color: white;
-  font-weight: bold;
   text-align: center;
-  width: 100px;
-
-
-
-
 }
 
-.Mother_Buys_Tuna #tunaP {
-  width: 200px;
-  margin: 0 auto;
-  top: 20px;
-  height: 20px;
-  position: relative;
+.tunastory_image_content img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
 }
 
-#tunapic {
-  margin: auto;
-  flex-wrap: wrap;
-  flex-direction: row;
-
-
-}
-
-.column.medium {
-  display: flex;
-  width: 300px;
-  border: 2px solid green;
-  padding: 30px;
-  margin: 25px;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-}
-
-.column.small {
-  display: flex;
-  width: 240px;
-  border: 2px solid green;
-  padding: 30px;
-  margin: 10px;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.main_content_container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  width: 1300px;
-  border: 2px solid green;
-  padding: 30px;
-  margin: 10px;
-  height: auto;
-  flex-direction: row;
-
+.tunastory_image_content span {
+  margin-left: 20px;
 }
